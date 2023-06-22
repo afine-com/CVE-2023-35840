@@ -24,7 +24,7 @@ And then encode it as:
 ```
 l1_cGVudGVzdC8uLi8uLi8=
 ```
-With `target` paramter set to this value we can write arbitary files to appliation root folder.
+With `target` parameter set to this value we can write arbitary files to application root folder.
 
 
 This issue was caused by incomplete validity checking of the supplied request parameters. That problem has been fixed in elFinder Version 2.1.62.
